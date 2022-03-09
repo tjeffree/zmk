@@ -28,28 +28,28 @@
 
         raise_layer {
             bindings = <
-    &kp TAB    &kp trans   &kp trans  &kp trans    &kp trans  &kp trans &kp trans    &kp trans &kp trans &kp BSPC
-    &kp ESC    &kp trans   &kp trans  &kp F5       &kp trans  &kp trans &kp F12      &kp trans &kp SEMI
-    &kp trans  &kp trans   &kp trans  &kp PG_UP    &kp PG_DN  &kp trans &kp trans    &kp FSLH
-    &kp LCTRL  &mo BOTH    &kp HOME   &mo BOTH     &kp trans
+    &kp TAB    &trans    &trans     &trans     &trans     &trans  &trans    &trans    &trans    &kp BSPC
+    &kp ESC    &trans    &trans     &kp F5     &trans     &trans  &kp F12   &trans    &kp SEMI
+    &trans     &trans    &trans     &kp PG_UP  &kp PG_DN  &trans  &trans    &kp FSLH
+    &kp LCTRL  &mo BOTH  &kp HOME   &mo BOTH   &trans
             >;
         };
 
         lower_layer {
             bindings = <
-    &kp N1          &kp N2      &kp N3     &kp N4       &kp N5     &kp N6    &kp N7       &kp N8    &kp N9    &kp N0
-    &kp CAPS        &kp trans   &kp trans  &kp trans    &kp trans  &kp LEFT  &kp DOWN     &kp UP    &kp RIGHT
-    &kp NON_US_BSLH &kp trans   &kp trans  &kp PG_UP    &kp PG_DN  &kp trans &kp trans    &kp COMMA
-    &kp LGUI        &mo BOTH    &kp END    &mo BOTH     &kp trans
+    &kp N1          &kp N2    &kp N3   &kp N4     &kp N5     &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
+    &kp CAPS        &trans    &trans   &trans     &trans     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
+    &kp NON_US_BSLH &trans    &trans   &kp PG_UP  &kp PG_DN  &trans    &trans    &kp COMMA
+    &kp LGUI        &mo BOTH  &kp END  &mo BOTH   &trans
             >;
         };
 
         both_layer {
             bindings = <
-    &kp trans  &kp trans   &kp trans  &kp trans    &kp trans  &kp trans &kp trans    &kp trans &kp trans &kp DEL
-    &kp trans  &kp trans   &kp trans  &kp trans    &kp trans  &kp trans &kp trans    &kp trans &kp AT
-    &kp trans  &kp trans   &kp trans  &kp trans    &kp trans  &kp trans &kp trans    &kp trans
-    &kp trans  &kp trans   &kp trans  &kp trans    &kp trans
+    &trans  &trans   &trans  &trans    &trans  &trans &trans    &trans &trans &kp DEL
+    &trans  &trans   &trans  &trans    &trans  &trans &trans    &trans &kp AT
+    &trans  &trans   &trans  &trans    &trans  &trans &trans    &trans
+    &trans  &trans   &trans  &trans    &trans
             >;
         };
 
